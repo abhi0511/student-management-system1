@@ -1,0 +1,12 @@
+﻿namespace student_data_management.Models
+{
+    public class AddStudentViewModel
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public int rollno { get; set; }
+        public String address { get; set; }
+        public DateTime dob { get; set; }
+
+    }
+}

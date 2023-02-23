@@ -1,0 +1,35 @@
+﻿@model student_data_management.Models.AddStudentViewModel
+
+@{
+}
+<h1>ADD NEW STUDENT</h1>
+<form method="post" action="Add">
+    <div class="mb-3">
+        <label for="" class="form-label">name</label>
+        <input type="text" class="form-control" Asp-for= "Name" >
+        
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Email Address</label>
+        <input type="email" class="form-control" Asp-for="Email">
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">roll number</label>
+        <input type="number" class="form-control" Asp-for="rollno">
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Address</label>
+        <input type="text" class="form-control" Asp-for="address">
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">date of birth</label>
+        <input type="date" class="form-control" Asp-for="dob">
+
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
